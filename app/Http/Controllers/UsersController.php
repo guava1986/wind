@@ -103,7 +103,7 @@ class UsersController extends Controller
         $view = 'emails.confirm';
         $data = compact('user');
         $from = 'aufree@yousails.com';
-        $name = 'Aufree';
+        // $name = 'Aufree';
         $to = $user->email;
         $subject = "感谢注册 Wind 应用！请确认你的邮箱。";
 
