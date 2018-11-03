@@ -8354,6 +8354,7 @@ button.close {
 
 body {
   padding-top: 60px;
+  color: #1d8068;
 }
 
 section {
@@ -8366,6 +8367,21 @@ textarea {
 
 .jumbotron {
   text-align: center;
+  background-color: #1d8068;
+}
+
+.jumbotron p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  color: #FFF8DC;
+}
+
+.jumbotron p a {
+  color: #FF4500;
+}
+
+.jumbotron p .btn-success {
+  background-color: #1e3f40;
 }
 
 /* typography */
@@ -8384,6 +8400,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: #D2691EC;
 }
 
 h2 {
@@ -8395,10 +8412,13 @@ h2 {
   color: #777;
 }
 
-p {
+/*.lead{
   font-size: 1.1em;
   line-height: 1.7em;
+  color:#D2691EC;
+
 }
+*/
 
 /* header */
 
@@ -8411,7 +8431,7 @@ p {
 }
 
 .navbar-inverse {
-  background-color: #1c273cb0;
+  background-color: #1d8068;
 }
 
 #logo {
@@ -8422,7 +8442,7 @@ p {
   text-decoration: none;
   letter-spacing: -1px;
   padding-top: 9px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #logo:hover {

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>@yield('title', 'Wind
-    App') - Laravel 入门教程</title>
+    <title>@yield('title', 'Laravel') - 風之微博</title>
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
